@@ -41,7 +41,7 @@ public class StringTraining {
 
     public static boolean equals(String origin, String compare) {
 
-        if (compare.equals(origin)) {
+        if (origin.equals(compare)) {
             return true;
         } else {
             return false;
